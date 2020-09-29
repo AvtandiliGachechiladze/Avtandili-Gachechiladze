@@ -1,8 +1,8 @@
 package ge.edu.btu.calculator.service;
 
 public interface CalculatorService {
-    int sum(int x, int y);
-    int divide(int x, int y);
-    double sum(double x, double y);
-    double divide(double x, double y);
+    void sum(int x, int y);
+    void divide(int x, int y);
+    void sum(double x, double y);
+    void divide(double x, double y);
 }
